@@ -1,0 +1,8 @@
+{
+  "editor.tabSize": 4,
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "git.ignoreLimitWarning": true
+
+}

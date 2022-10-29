@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "workspaces": [
+    "./next-app",
+    "./payload-starter-template"
+  ],
+  "scripts": {
+    "dev:payload": "yarn workspace payload-starter-template dev",
+    "dev:next": "yarn workspace next-app dev"
+  }
+}

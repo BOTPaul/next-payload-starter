@@ -1,0 +1,21 @@
+{
+  "name": "Next & Payload template",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "next-app",
+  "workspaceFolder": "/workspace",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "unifiedjs.vscode-mdx",
+        "mongodb.mongodb-vscode",
+        "esbenp.prettier-vscode",
+        "bradlc.vscode-tailwindcss",
+        "amatiasq.sort-imports"
+      ]
+    }
+  },
+
+  "postCreateCommand": "yarn"
+}
